@@ -16,30 +16,121 @@ An XLL & Excel-DNA based add-in for MS Excel which is open for further developme
 
 ### Features
 
-#### * Text Utils
-#####   Insert Text
-#####   Reverse Text
-#####   Extract Digits
-#####   Extract Alphabets
-#####   Change Case
-######       Upper Case
-######       Lower Case
-######       Proper Case
-######       Sentence Case
-######       Toggle Case
-######       Snake Case
-#### * Number Utils
+* Text Utils
+    * Insert Text
+    * Reverse Text
+    * Sort value with in cell
+    * Change Case
+        * Upper Case
+        * Lower Case
+        * Proper Case
+        * Sentence Case
+        * Toggle Case
+        * Snake Case
+    * Trim Spaces
+        * From Left/Right/Both Sides
+        * From Both Sides
+        * Excessive Spaces
+    * Delete Text
+        * 'n' number of characters from Left/Right/Both Sides/a position in text
+        * Ending CR or LF
+        * Numbers
+        * Alphabets
+    * Super/Sub script
+	* Accented characters
+	* Extract
+        * Valid Email-Address
+        * Numbers
+        * Alphabets
+        * Dates
+        * Alpha-Numeric [A-Z][0-9]
+   
+* Number Utils
+	* Convert Text Values to Numbers
+	* Convert Numbers to Text Format
+	* Change the sign (+ or -)
+	* Spell Number
+	* Apply Calculation
+	* Convert % to numbers and vice-versa
+	* Round Numbers (Actual conversion)
+	* Fill with leading zeros
+	* Convert to displayed value
+	* Quick numbering
+	* Select Min/Max values
+	
 
-#### * Range Utils
+* Range Utils
+	* Copy multiple selection
+	* Advanced sorting
+	* Color every n'th row/coloumn
+	* Merge Row/Column data
+	* Delete
+        * Empty Rows/Columns 
+        * Odd Rows/Columns
+	* Insert
+        * Empty Rows/Columns 
+        * Odd Rows/Columns
+	* Advanced Find/Replace
+	* Flip the values 
+	* Convert to static formatting
+	* Highlight and count duplicates
+	* Conditional Hide
+	* Range Names
+        * Delete in selection
+        * Delete in worksheet
+        * Delete in workbook
+        * Delete with invalid cell reference
+        * Create List
 
-#### * Select Utils
+* Select Utils
+	* Inverse selection
+	* Entire Row/Column
+	* Active cell  value
+	* Based on Type
+        * Empty/Non-Empty
+        * Protected/Non-protected
+        * Numeric/Non-numeric
+        * Hidden
+        * Formula
+            * Precedents/Dependents
+        * Error
+        * Data Validation	
+        * Volatile formulas	
+	* Based on Value
+        * Odd/Even Numbers
+        * Duplicate Values
+        * Unique Values
+        * Hyperlinks
+        * Commented cells
+        * 
+	* Based on Format
+        * Font / background Color
+        * Bold/Italic/Underlined cells
+        * Text Length
+	* Row / Column differences
+	* Merge Selection
+	* Adjacents cells
+        * with same value
+        * with same formatting		
+	* All Sheets
+	* Give count and select all Objects
+	* Expand current selection to other worksheets
+    * Extend select to last/first row/column
 
-#### * Date Utils
+* Formula Utils
+    * Change formula to its calculated value
+    * Rebuild array formulae
+    * Insert/Remove apostrophe 
+    * Replace range name with their formula
+    * Change reference style (Absolute to Reference)
+    * Custom formula error
 
-#### * Sheet Utils
+* Date Utils
 
-#### * Information Utils
+* Sheet Utils
 
-#### * System Utils
+* Web Utils
 
+* Information Utils
 
+* System Utils

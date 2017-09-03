@@ -16,121 +16,196 @@ An XLL & Excel-DNA based add-in for MS Excel which is open for further developme
 
 ### Features
 
-* Text Utils
-    * Insert Text
-    * Reverse Text
-    * Sort value with in cell
-    * Change Case
-        * Upper Case
-        * Lower Case
-        * Proper Case
-        * Sentence Case
-        * Toggle Case
-        * Snake Case
-    * Trim Spaces
-        * From Left/Right/Both Sides
-        * From Both Sides
-        * Excessive Spaces
-    * Delete Text
-        * 'n' number of characters from Left/Right/Both Sides/a position in text
-        * Ending CR or LF
-        * Numbers
-        * Alphabets
-    * Super/Sub script
-	* Accented characters
-	* Extract
-        * Valid Email-Address
-        * Numbers
-        * Alphabets
-        * Dates
-        * Alpha-Numeric [A-Z][0-9]
+* [ ] Text Utils
+    * [ ] Insert Text
+    * [ ] Reverse Text
+    * [ ] Sort value with in cell
+    * [ ] Change Case
+        * [ ] Upper Case
+        * [ ] Lower Case
+        * [ ] Proper Case
+        * [ ] Sentence Case
+        * [ ] Toggle Case
+        * [ ] Snake Case
+    * [ ] Trim Spaces
+        * [ ] From Left/Right/Both Sides
+        * [ ] From Both Sides
+        * [ ] Excessive Spaces
+    * [ ] Delete Text
+        * [ ] 'n' number of characters from Left/Right/Both Sides/a position in text
+        * [ ] Ending CR or LF
+        * [ ] Numbers
+        * [ ] Alphabets
+    * [ ] Super/Sub script
+	* [ ] Accented characters
+	* [ ] Fill
+        * [ ] random names
+        * [ ] random numbers (with duplicate)
+        * [ ] random dates
+        * [ ] random cities
+        * [ ] random countries
+        * [ ] random companies
+        * [ ] empty cells with adjacent value
+        * [ ] filenames from a folder 
+	* [ ] Extract
+        * [ ] Valid Email-Address
+        * [ ] Numbers
+        * [ ] Alphabets
+        * [ ] Dates
+        * [ ] Alpha-Numeric [A-Z][0-9]
    
-* Number Utils
-	* Convert Text Values to Numbers
-	* Convert Numbers to Text Format
-	* Change the sign (+ or -)
-	* Spell Number
-	* Apply Calculation
-	* Convert % to numbers and vice-versa
-	* Round Numbers (Actual conversion)
-	* Fill with leading zeros
-	* Convert to displayed value
-	* Quick numbering
-	* Select Min/Max values
+* [ ] Number Utils
+	* [ ] Convert Text Values to Numbers
+	* [ ] Convert Numbers to Text Format
+	* [ ] Change the sign (+ or -)
+	* [ ] Spell Number
+	* [ ] Apply Calculation
+	* [ ] Convert % to numbers and vice-versa
+	* [ ] Round Numbers (Actual conversion)
+	* [ ] Fill with leading zeros
+	* [ ] Convert to displayed value
+	* [ ] Quick numbering
+	* [ ] Select Min/Max values
 	
 
-* Range Utils
-	* Copy multiple selection
-	* Advanced sorting
-	* Color every n'th row/coloumn
-	* Merge Row/Column data
-	* Delete
-        * Empty Rows/Columns 
-        * Odd Rows/Columns
-	* Insert
-        * Empty Rows/Columns 
-        * Odd Rows/Columns
-	* Advanced Find/Replace
-	* Flip the values 
-	* Convert to static formatting
-	* Highlight and count duplicates
-	* Conditional Hide
-	* Range Names
-        * Delete in selection
-        * Delete in worksheet
-        * Delete in workbook
-        * Delete with invalid cell reference
-        * Create List
+* [ ] Range Utils
+	* [ ] Copy multiple selection
+	* [ ] Advanced sorting
+	* [ ] Color every n'th row/coloumn
+	* [ ] Merge Row/Column data
+	* [ ] Delete
+        * [ ] Empty Rows/Columns 
+        * [ ] Odd Rows/Columns
+	* [ ] Insert
+        * [ ] Empty Rows/Columns 
+        * [ ] Odd Rows/Columns
+	* [ ] Advanced Find/Replace
+	* [ ] Flip the values 
+	* [ ] Convert to static formatting
+	* [ ] Highlight and count duplicates
+	* [ ] Remove conditional formatting
+	* [ ] Add Cell value/formula to comment
+	* [ ] Conditional Hide
+	* [ ] Range Names
+        * [ ] Delete in selection
+        * [ ] Delete in worksheet
+        * [ ] Delete in workbook
+        * [ ] Delete with invalid cell reference
+        * [ ] Create List
 
-* Select Utils
-	* Inverse selection
-	* Entire Row/Column
-	* Active cell  value
-	* Based on Type
-        * Empty/Non-Empty
-        * Protected/Non-protected
-        * Numeric/Non-numeric
-        * Hidden
-        * Formula
-            * Precedents/Dependents
-        * Error
-        * Data Validation	
-        * Volatile formulas	
-	* Based on Value
-        * Odd/Even Numbers
-        * Duplicate Values
-        * Unique Values
-        * Hyperlinks
-        * Commented cells
-        * 
-	* Based on Format
-        * Font / background Color
-        * Bold/Italic/Underlined cells
-        * Text Length
-	* Row / Column differences
-	* Merge Selection
-	* Adjacents cells
-        * with same value
-        * with same formatting		
-	* All Sheets
-	* Give count and select all Objects
-	* Expand current selection to other worksheets
-    * Extend select to last/first row/column
+* [ ] Select Utils
+	* [ ] Inverse selection
+	* [ ] Deselect with in selection
+	* [ ] Entire Row/Column
+	* [ ] Active cell  value
+	* [ ] Based on Type
+        * [ ] Empty/Non-Empty
+        * [ ] Protected/Non-protected
+        * [ ] Numeric/Non-numeric
+        * [ ] Hidden
+        * [ ] Formula
+            * [ ] Precedents/Dependents
+        * [ ] Error
+        * [ ] Data Validation	
+        * [ ] Volatile formulas	
+	* [ ] Based on Value
+        * [ ] Odd/Even Numbers
+        * [ ] Duplicate Values
+        * [ ] Unique Values
+        * [ ] Hyperlinks
+        * [ ] Commented cells
+        * [ ] Max/Min Value
+		* [ ] Largest Text
+		* [ ] current year dates
+	* [ ] Based on Format
+        * [ ] Font / background Color
+        * [ ] Bold/Italic/Underlined cells
+        * [ ] Text Length
+	* [ ] Row / Column differences
+	* [ ] Merge Selection
+	* [ ] Adjacents cells
+        * [ ] with same value
+        * [ ] with same formatting		
+	* [ ] All Sheets
+	* [ ] Give count and select all Objects
+	* [ ] Expand current selection to other worksheets
+    * [ ] Extend select to last/first row/column
 
-* Formula Utils
-    * Change formula to its calculated value
-    * Rebuild array formulae
-    * Insert/Remove apostrophe 
-    * Replace range name with their formula
-    * Change reference style (Absolute to Reference)
-    * Custom formula error
+* [ ] Formula Utils
+    * [ ] Change formula to its calculated value
+    * [ ] Rebuild array formulae
+    * [ ] Insert/Remove apostrophe 
+    * [ ] Replace range name with their formula
+    * [ ] Change reference style (Absolute to Reference)
+    * [ ] Custom formula error
+    * [ ] Apply Nested Formulae
 
-* Date Utils
+* [ ] Date Utils
+    * [ ] Change year or month to current/provided
+    * [ ] Select current FY / CY dates
+    * [ ] Get EOM date
+    * [ ] Replace with working day date
+    * [ ] calculate business / total days / months/ weeks / year between 2 date columns
 
-* Sheet Utils
+* [ ] Sheet Utils
+    * [ ] Insert multiple sheets
+    * [ ] List all Sheet Names
+    * [ ] Sort Sheets by Name
+    * [ ] List all Sheet Names with link
+    * [ ] Protect / Unprotect
+    * [ ] Hide / Unhide
+    * [ ] Export
+    * [ ] Delete Empty
+    * [ ] Print multiple
+    * [ ] Delete unused empty rows/columns
+    * [ ] Reset Excel's last cell
+	
 
-* Web Utils
+* [ ] Web Utils
+    * [ ] Remove all hyperlinks
+    * [ ] Apply hyperlink to selected cells
+    * [ ] Convert to formula hyperlink
+    * [ ] Remove HTML tags
+    * [ ] Extract URL from hyperlinks
+    * [ ] Export as HTML
+    * [ ] Decode URL/HTML encoded text
+    * [ ] Search Active Cell value on web
 
-* Information Utils
+* [ ] Information Utils
+    * [ ] Stats on selected cells
+    * [ ] Copy path to clipboard
+    * [ ] Page number of active cell
+    * [ ] Count duplicates in selection
+    * [ ] Count formulas
+    * [ ] Count charts
+    * [ ] Count pivot tables
+    * [ ] Count selected cells
+    * [ ] Count sheets
+    * [ ] Find bad cell references
+    * [ ] Find too narrow columns
+    * [ ] Display the regional settings
+    * [ ] List all fonts
+    * [ ] List all add-ins
+    * [ ] List formulae
+    * [ ] List range names
+    * [ ] List down workbook information
+    * [ ] Show total time saved
 
-* System Utils
+* [ ] System Utils
+    * [ ] Save file with backup
+    * [ ] Reopen current file without saving changes
+    * [ ] Remove external links
+    * [ ] Change Excel file default location
+    * [ ] Change default sheets count of new workbooks
+    * [ ] Set default path to current file location
+    * [ ] Display fullpath or filename in title
+    * [ ] Close all saved files / open files without saving changes
+    * [ ] Remove all vba code / charts/ pivot
+    * [ ] Clear recently used files
+    * [ ] Macro/VBA information
+    * [ ] All/Remove current file from recent files
+    * [ ] Save selection as image
+    * [ ] Force Save
+    * [ ] Run charts slideshow
+    * [ ] Reload / List all add-ins
+    * [ ] Most used utilities

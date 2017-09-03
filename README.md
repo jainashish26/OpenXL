@@ -14,6 +14,9 @@ An XLL & Excel-DNA based add-in for MS Excel which is open for further developme
 1. Click here to download the latest version (beta) of ChargeXL
 2. Open the ChargeXL.xll file which is an Excel Add-in. A new tab will appear in your MS Excel and you would be able to use all the below features and functions in your Excel workbook.
 
+#### Disclaimer
+*Please create a backup/copy of your data/workbook since a lot of features do not have Undo option at the moment. Irrespective of the fact that which version and from where you have sourced the add-in, we shall never be held responsible for any loss which may happen to you.*
+
 ### Features
 
 * [ ] Text Utils

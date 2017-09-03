@@ -67,15 +67,16 @@ namespace ChargeXL
 						                enabled='true'
 						                id='btn'
 						                imageMso='AnimationAudio'
-						                label='Dynamic Button'
+						                label='My Button'
 						                showImage='true'
 						                size='large'
-						                visible='true'
-                                        onAction='RunTagMacro' 
-                                        tag='ShowHelloMessage'/>
+						                visible='true' 
+             screentip='Text'              supertip = 'Inserts text at the cursor location.'
+                                        onAction ='OnButtonPressed' 
+                                        />
 				                </group>";
                 return
-                @"<customUI  xmlns='http://schemas.microsoft.com/office/2006/01/customui'>
+                @"<customUI  xmlns='http://schemas.microsoft.com/office/2009/07/customui'>
 	                <ribbon>
 		                <tabs>
 			                <tab 
